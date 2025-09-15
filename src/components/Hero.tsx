@@ -279,7 +279,7 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                 
                 <div className="mb-4">
                   <button
-                    onClick={() => window.open('https://wa.me/5584981321396?text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20Federal%20Associados.%20Gostaria%20de%20saber%20mais%20como%20funciona%20essa%20internet%2C%20como%20funciona%20a%20contrata%C3%A7%C3%A3o.%20Gostaria%20de%20saber%20de%20todos%20os%20detalhes', '_blank')}
+                    onClick={onRedirect}
                     className="w-full inline-flex items-center justify-center rounded-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 animate-subtle-pulse hover:scale-105 bg-blue-600 hover:bg-blue-700 text-white focus:ring-blue-600 shadow-lg text-base py-3 px-6"
                   >
                     Sim, estou cansado disso
@@ -388,7 +388,7 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
               
               <div className="mt-4">
                 <button
-                  onClick={() => window.open('https://wa.me/5584981321396?text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20Federal%20Associados.%20Gostaria%20de%20saber%20mais%20como%20funciona%20essa%20internet%2C%20como%20funciona%20a%20contrata%C3%A7%C3%A3o.%20Gostaria%20de%20saber%20de%20todos%20os%20detalhes', '_blank')}
+                  onClick={onRedirect}
                   className="w-full inline-flex items-center justify-center rounded-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 animate-subtle-pulse hover:scale-105 bg-blue-600 hover:bg-blue-700 text-white focus:ring-blue-600 shadow-lg text-base py-3 px-6 button-glow"
                 >
                   Quero internet ilimitada <ArrowRight className="ml-2 h-6 w-6" />
@@ -416,7 +416,7 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                 
                 <div className="mb-4">
                   <button
-                    onClick={() => window.open('https://wa.me/5584981321396?text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20Federal%20Associados.%20Gostaria%20de%20saber%20mais%20como%20funciona%20essa%20internet%2C%20como%20funciona%20a%20contrata%C3%A7%C3%A3o.%20Gostaria%20de%20saber%20de%20todos%20os%20detalhes', '_blank')}
+                    onClick={onRedirect}
                     className="w-full inline-flex items-center justify-center rounded-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 animate-subtle-pulse hover:scale-105 bg-blue-600 hover:bg-blue-700 text-white focus:ring-blue-600 shadow-lg text-base py-3 px-6"
                   >
                     Sim, estou cansado disso
@@ -525,7 +525,7 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
               
               <div className="mt-6">
                 <button
-                  onClick={() => window.open('https://wa.me/5584981321396?text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20Federal%20Associados.%20Gostaria%20de%20saber%20mais%20como%20funciona%20essa%20internet%2C%20como%20funciona%20a%20contrata%C3%A7%C3%A3o.%20Gostaria%20de%20saber%20de%20todos%20os%20detalhes', '_blank')}
+                  onClick={onRedirect}
                   className="w-full inline-flex items-center justify-center rounded-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 animate-subtle-pulse hover:scale-105 bg-blue-600 hover:bg-blue-700 text-white focus:ring-blue-600 shadow-lg text-base py-3 px-6 button-glow"
                 >
                   Quero internet ilimitada <ArrowRight className="ml-2 h-6 w-6" />

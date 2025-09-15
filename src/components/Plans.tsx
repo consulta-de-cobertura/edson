@@ -215,7 +215,7 @@ const Plans: React.FC<PlansProps> = ({ onRedirect }) => {
           )}
         </div>
         <Button
-          onClick={() => window.open('https://wa.me/5584981321396?text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20Federal%20Associados.%20Gostaria%20de%20saber%20mais%20como%20funciona%20essa%20internet%2C%20como%20funciona%20a%20contrata%C3%A7%C3%A3o.%20Gostaria%20de%20saber%20de%20todos%20os%20detalhes', '_blank')}
+          onClick={onRedirect}
           className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 button-glow mt-auto"
         >
           QUERO ME ASSOCIAR AGORA
@@ -467,7 +467,7 @@ const Plans: React.FC<PlansProps> = ({ onRedirect }) => {
                 {showSignUpButton && (
                   <div className="mt-4">
                     <Button
-                      onClick={() => window.open('https://wa.me/5584981321396?text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20Federal%20Associados.%20Gostaria%20de%20saber%20mais%20como%20funciona%20essa%20internet%2C%20como%20funciona%20a%20contrata%C3%A7%C3%A3o.%20Gostaria%20de%20saber%20de%20todos%20os%20detalhes', '_blank')}
+                      onClick={onRedirect}
                       className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 button-glow"
                     >
                       QUERO ME ASSOCIAR AGORA

@@ -16,7 +16,7 @@ const ObjectionsSection: React.FC<ObjectionsSectionProps> = ({ onRedirect }) => 
               Clique no botão abaixo e faça seu cadastro agora mesmo!
             </p>
             <button
-              onClick={() => window.open('https://wa.me/5584981321396?text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20Federal%20Associados.%20Gostaria%20de%20saber%20mais%20como%20funciona%20essa%20internet%2C%20como%20funciona%20a%20contrata%C3%A7%C3%A3o.%20Gostaria%20de%20saber%20de%20todos%20os%20detalhes', '_blank')}
+              onClick={onRedirect}
               className="inline-block bg-white hover:bg-gray-100 text-blue-600 font-bold py-2 md:py-3 px-6 md:px-8 rounded-lg transition-colors text-sm md:text-base"
             >
               Fazer Cadastro Agora
