@@ -34,9 +34,9 @@ export default function FullscreenPopup({ isOpen, onClose }: FullscreenPopupProp
       <div className="max-w-2xl mx-auto p-6">
         {/* Video Section */}
         <div className="mb-8">
-          <div className="relative bg-gray-900 rounded-lg overflow-hidden aspect-video">
+          <div className="relative bg-gray-900 rounded-lg overflow-hidden aspect-[9/16] max-w-sm mx-auto">
             <video
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
               controls
              controlsList="nodownload"
              onContextMenu={(e) => e.preventDefault()}
