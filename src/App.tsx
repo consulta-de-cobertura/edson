@@ -71,6 +71,7 @@ function App() {
           isOpen={isFullscreenPopupOpen} 
           onClose={() => setIsFullscreenPopupOpen(false)} 
         />
+      </div>
     </ThemeProvider>
   );
 }
