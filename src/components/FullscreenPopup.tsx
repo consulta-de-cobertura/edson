@@ -83,9 +83,9 @@ export default function FullscreenPopup({ isOpen, onClose }: FullscreenPopupProp
                 </div>
               </div>
               <p className="text-xs text-gray-600 mt-3">
-                Ao escolher um plano da Vivo 30GB com ligação ilimitada, você 
-                pode simplesmente comprar um chip básico em qualquer 
-                farmácia, loja, banca de jornal e solicitar ativação de forma 
+                Ao escolher um plano da Vivo 80GB com ligação acima, você 
+                pode simplesmente comprar um chip lacrado em qualquer 
+                farmácia, loja, banca de jornal em sua cidade e solicitar ativação de forma 
                 imediata.
               </p>
             </div>
