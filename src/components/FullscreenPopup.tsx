@@ -211,9 +211,3 @@ const FullscreenPopup: React.FC<FullscreenPopupProps> = ({ isOpen, onClose }) =>
             </div>
           </div>
         </Dialog.Content>
-      </Dialog.Portal>
-    </Dialog.Root>
-  );
-};
-
-export default FullscreenPopup;
