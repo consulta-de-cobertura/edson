@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ThemeProvider } from './contexts/ThemeContext';
+import FullscreenPopup from './components/FullscreenPopup';
 import Hero from './components/Hero';
 import Benefits from './components/Benefits';
 import Differentials from './components/Differentials';
@@ -14,13 +15,12 @@ import PBISection from './components/PBISection';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
-import CadastroModal from './components/CadastroModal';
 
 function App() {
-  const [isCadastroModalOpen, setIsCadastroModalOpen] = useState(false);
+  const [isFullscreenPopupOpen, setIsFullscreenPopupOpen] = useState(false);
 
   const handleDirectRedirect = () => {
-    setIsCadastroModalOpen(true);
+    setIsFullscreenPopupOpen(true);
   };
 
   return (
@@ -63,10 +63,10 @@ function App() {
         {/* 11. FOOTER - Fechamento */}
         <Footer />
         
-        {/* Cadastro Modal */}
-        <CadastroModal 
-          isOpen={isCadastroModalOpen} 
-          onClose={() => setIsCadastroModalOpen(false)} 
+        {/* Fullscreen Popup */}
+        <FullscreenPopup 
+          isOpen={isFullscreenPopupOpen} 
+          onClose={() => setIsFullscreenPopupOpen(false)} 
         />
       </div>
     </ThemeProvider>
