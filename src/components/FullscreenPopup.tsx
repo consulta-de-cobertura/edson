@@ -38,8 +38,25 @@ export default function FullscreenPopup({ isOpen, onClose }: FullscreenPopupProp
             <video
               className="w-full h-full object-cover"
               controls
+             controlsList="nodownload"
+             onContextMenu={(e) => e.preventDefault()}
               src="https://fznhzqgulsyrjfrzcdqi.supabase.co/storage/v1/object/public/cadastro/cadastro.mp4"
             >
+             <style>
+               {`
+                 video::-webkit-media-controls-overflow-menu-button,
+                 video::-webkit-media-controls-overflow-menu-list,
+                 video::-webkit-media-controls-download-button {
+                   display: none !important;
+                 }
+                 video::-webkit-media-controls-enclosure {
+                   overflow: hidden !important;
+                 }
+                 video::-webkit-media-controls-panel {
+                   overflow: clip !important;
+                 }
+               `}
+             </style>
               Seu navegador não suporta o elemento de vídeo.
             </video>
           </div>
