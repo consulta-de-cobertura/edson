@@ -63,9 +63,6 @@ function App() {
         {/* 11. FOOTER - Fechamento */}
         <Footer />
         
-        {/* WhatsApp Button */}
-        <WhatsAppButton onOpenModal={handleDirectRedirect} />
-        
         {/* Fullscreen Popup */}
         <FullscreenPopup 
           isOpen={isFullscreenPopupOpen} 
