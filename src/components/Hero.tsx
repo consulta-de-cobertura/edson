@@ -254,7 +254,7 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
           <div className="mt-1 md:hidden">
             <div className="p-3">
               <h2 className="text-xl font-bold mb-4 text-gray-900">
-                Sua internet não ta durando o mês todo? Chega de sofrer com internet ruim. Aqui na Federal Associados você tem internet ilimitada de verdade tanto para área urbana como rural.
+                Sua internet não tá durando o mês todo? Pare de jogar seu dinheiro no lixo. Aqui na
               </h2>
               
               {/* Nova imagem centralizada abaixo do título - MOBILE ONLY */}
@@ -269,6 +269,11 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                   />
                 </div>
               </div>
+              
+              {/* Novo título centralizado em negrito após a imagem */}
+              <h3 className="text-xl font-bold mb-4 text-gray-900 text-center">
+                Você tem internet ilimitada de verdade tanto para área urbana como rural. Chega de sofrer com internet ruim
+              </h3>
               
               <div className="mb-4 text-gray-600 text-left">
                 <p className="text-lg mb-4">Quantas vezes você já passou por esse momento humilhante de tentar pagar uma conta, pedir um carro ou mandar aquela mensagem extremamente importante… e a internet simplesmente parou, te deixando na mão mais uma vez?</p>
